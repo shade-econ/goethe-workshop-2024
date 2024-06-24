@@ -17,7 +17,7 @@ import numba
 
 # little need to speed up these functions
 from sim_steady_state import (discretize_assets, rouwenhorst_Pi, forward_iteration,
-                              expectation_iteration, expectation_functions)
+                              expectation_iteration, expectation_functions, forward_policy)
 
 """Part 0: example calibration from notebook"""
 
